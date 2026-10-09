@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+airflow_home/
+logs/
+*.db
+# local runs and real data; keep the generated sample
+data/*
+!data/sample/
